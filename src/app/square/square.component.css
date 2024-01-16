@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Include the Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Apply the font to the h2 tag */
+h2 {
+  font-family: 'Poppins', sans-serif;
+  /* You can also specify additional styles if needed */
+  font-weight: 700; /* Use 400 for regular and 700 for bold, adjust as needed */
+  /* Add other styles like color, margin, padding, etc. */
+  font-size: 2em;
+  padding: 0.75em;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 30px; /* Adjust padding to make the button bigger */
+    font-size: 18px; /* Adjust font size as needed */
+    border-radius: 10px; /* Create rounded edges */
+    background-color:#871282; /* Set background color to black */
+    color: white; /* Set font color to white */
+    text-decoration: none; /* Remove underline for anchor tags (if it's a link) */
+    cursor: pointer; /* Add a pointer cursor for better user experience */
+  }
+  
+  /* Hover effect (optional) */
+  .button:hover {
+    background-color: #333; /* Darken the background color on hover */
+  }
+  
+
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(246,161,146);
+    background: radial-gradient(circle, rgba(246,161,146,1) 40%, rgba(255,229,180,1) 60%, rgba(246,217,146,1) 70%);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 0px;
+}
+
+app-game-board{
+
+     border: 1px black solid;
+     height: 200px;
+}
+
+/* Style the button */
