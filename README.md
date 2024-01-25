@@ -1,4 +1,15 @@
-# Game
+# Game Angular Tic Tac Toe
+
+⭕❌ Dive into the classic game of Tic Tac Toe reimagined with the power of Angular! This project brings the timeless strategy game to your browser, featuring a clean and interactive user interface. Enjoy hours of fun with friends or challenge the computer AI. With Angular's simplicity and flexibility, this Tic Tac Toe game is not just a play, but a coding journey too.
+
+Key Features:
+
+Angular-powered interface for a seamless and engaging gameplay experience.
+Play against a friend or challenge the computer AI for a strategic showdown.
+Well-documented codebase – perfect for both learning and contributing.
+Responsive design ensures a delightful experience on any device.
+Ready to make your moves? Clone the repository, run the app, and experience Tic Tac Toe in a whole new way with Angular! 🌐✨
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
 
